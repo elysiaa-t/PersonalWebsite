@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Gaegu, Geist, Geist_Mono } from "next/font/google";
+import { Gaegu, Geist, Geist_Mono, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -15,6 +15,12 @@ const geistMono = Geist_Mono({
 const gaegu = Gaegu({
   variable: "--font-gaegu",
   weight: ["400", "700"],
+  subsets: ["latin"],
+});
+
+const ibmPlexMono = IBM_Plex_Mono({
+  variable: "--font-ibm-plex-mono",
+  weight: ["400", "500"],
   subsets: ["latin"],
 });
 
@@ -45,7 +51,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${gaegu.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${gaegu.variable} ${ibmPlexMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>

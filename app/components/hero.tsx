@@ -18,7 +18,7 @@ export function Hero() {
           {profile.tagline}
         </h1>
 
-        <p className="mt-3 font-mono text-sm text-accent sm:text-base">{profile.title}</p>
+        <p className="mt-3 font-plex-mono text-sm text-accent sm:text-base">{profile.title}</p>
 
         <p className="mt-6 max-w-2xl text-base leading-relaxed text-muted sm:text-lg">
           {profile.summary}
