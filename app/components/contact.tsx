@@ -7,12 +7,12 @@ export function Contact() {
       <div className="mx-auto w-full max-w-5xl px-6">
         <div className="relative overflow-hidden rounded-3xl border border-border bg-card px-6 py-12 sm:px-12 sm:py-16">
           <div className="bg-grid pointer-events-none absolute inset-0 opacity-70" aria-hidden />
-          <div className="relative max-w-2xl">
+          <div className="relative max-w-3xl">
             <p className="mb-2 font-mono text-xs uppercase tracking-[0.2em] text-accent">
               Get in touch
             </p>
-            <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-              Have a dataset that needs a story? Let&apos;s talk.
+            <h2 className="text-balance text-3xl font-semibold tracking-tight sm:text-4xl">
+              Have a dataset that needs a story? Let&apos;s&nbsp;talk.
             </h2>
             <p className="mt-4 text-base leading-relaxed text-muted sm:text-lg">
               I&apos;m actively looking for data analyst and data science internships. The
