@@ -44,7 +44,7 @@ export const projects: Project[] = [
       "Delivered a sponsorship strategy report with publication-quality visualizations identifying the highest-value targets.",
     ],
     outcome: "Data-driven strategy recommendation delivered to NY Racing",
-    tags: ["Python", "Web Scraping", "APIs", "Scoring Model", "Data Viz"],
+    tags: ["Python", "Web Scraping", "APIs", "Scoring Model", "Data Visualization"],
     featured: true,
   },
   {
