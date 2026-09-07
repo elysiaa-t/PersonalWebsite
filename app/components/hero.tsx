@@ -14,7 +14,7 @@ export function Hero() {
           Open to data analyst &amp; data science internships
         </p>
 
-        <h1 className="max-w-3xl text-4xl font-semibold leading-[1.05] tracking-tight sm:text-6xl">
+        <h1 className="max-w-4xl text-balance text-4xl font-semibold leading-[1.05] tracking-tight sm:text-6xl">
           {profile.tagline}
         </h1>
 

@@ -1,7 +1,7 @@
 export const profile = {
   name: "Elysia Trocio",
   title: "Data Analyst · Applied Mathematics @ UC Irvine",
-  tagline: "I turn messy datasets into decisions people can act on.",
+  tagline: "I turn messy datasets into decisions people can act\u00A0on.",
   summary:
     "Applied Mathematics (Data Science) student at UC Irvine with a Computer Science minor. I've built scoring models for sponsorship ROI, analyzed income-prediction datasets, and shipped a full-stack web app with an 11-person team. I'm looking for data analyst / data science internships where I can pair rigorous analysis with clear storytelling.",
   email: "etrocio@uci.edu",
