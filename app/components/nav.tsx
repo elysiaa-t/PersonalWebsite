@@ -5,7 +5,7 @@ export function Nav() {
   return (
     <header className="sticky top-0 z-40 border-b border-border/70 bg-background/80 backdrop-blur">
       <nav className="mx-auto flex h-14 w-full max-w-5xl items-center justify-between px-6">
-        <a href="#top" className="flex items-center gap-2 font-semibold tracking-tight">
+        <a href="#top" className="flex items-center gap-2 font-brand text-xl font-bold">
           <span className="inline-block h-2.5 w-2.5 rounded-full bg-accent" aria-hidden />
           {profile.name}
         </a>

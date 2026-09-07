@@ -37,6 +37,7 @@
   --color-accent-soft: var(--accent-soft);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-brand: var(--font-gaegu);
 }
 
 html {
@@ -48,7 +49,6 @@ body {
   color: var(--foreground);
   font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
 }
-
 .bg-grid {
   background-image:
     linear-gradient(to right, var(--grid) 1px, transparent 1px),
